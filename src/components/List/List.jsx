@@ -11,6 +11,7 @@ const List = ({ cars }) => {
         flexDirection: "column",
         alignItems: "center",
       }}>
+      card
       {cars.map(item => (
         <Card
           key={item.id}
